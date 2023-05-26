@@ -1,0 +1,8 @@
+.shift-container {
+    margin-bottom: 10px;
+  }
+
+  .shift-container {
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,9 @@
+<button
+  class="bg-slate-500 w-28 h-28 m-2 rounded-lg hover:bg-amber-400"
+  (click)="onClick()"
+>
+  <span class="font-extrabold">{{ buttonContent() }}</span>
+</button>
+<div class="rounded-lg w-28 h-12 text-center mx-2" [ngClass]="buttonColor()">
+  {{ buttonInfo() }}
+</div>

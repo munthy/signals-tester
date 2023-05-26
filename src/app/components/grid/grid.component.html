@@ -1,0 +1,7 @@
+<ng-container *ngFor="let row of rows()">
+  <div class="flex">
+    <ng-container *ngFor="let col of cols()">
+      <signals-tester-grid-cell (color)="updateColor($event)" />
+    </ng-container>
+  </div>
+</ng-container>
